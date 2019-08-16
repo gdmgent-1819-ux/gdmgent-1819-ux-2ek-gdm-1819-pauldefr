@@ -63,7 +63,7 @@ nav ul {
     display: flex;
     justify-content: space-around;
 
-    background-color: hsla(16, 88%, 54%, 1);
+    background-color:var(--c-primary);
 }
 
 nav ul.mainnav li a {
@@ -87,7 +87,7 @@ nav ul.dropdown {
     display: none;
     /* onzichtbaar maken */
     top: 58px;
-    color: hsla(16, 88%, 54%, 1);
+    color: var(--c-primary);
     background-color: #f0f2f5;
 }
 
@@ -108,8 +108,17 @@ nav ul.dropdown {
 
 }
 
-.introblock {
+.container {
+    display: flex;
+    justify-content: space-around;
     
+}
+
+.kidsdraw img{
+    position: relative;
+    justify-items: center;
+    height: 300px;
+    margin-top: 200px;
 }
 
 p {
@@ -121,6 +130,6 @@ footer {
     justify-content: center;
     height: 100px;
     width: 100%;
-    background-color: hsla(16, 88%, 54%, 1);
+    background-color: var(--c-primary);
     color: white;
 }
