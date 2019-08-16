@@ -47,7 +47,7 @@ header {
 
 body {
     font-family: 'Roboto', sans-serif;
-    
+    background-color: var(--c-secondary);
 }
 
 
@@ -111,6 +111,8 @@ nav ul.dropdown {
 .container {
     display: flex;
     justify-content: space-around;
+    background-color:rgb(214, 202, 178);
+    
     
 }
 
@@ -127,9 +129,21 @@ p {
 
 footer {
     display: flex;
-    justify-content: center;
-    height: 100px;
+    justify-content: space-between;
+    
+    height: 200px;
     width: 100%;
     background-color: var(--c-primary);
+    color: white;
+}
+
+
+
+.privacy{
+   bottom: -10px;
+   right: 10px;
+}
+
+a {
     color: white;
 }
