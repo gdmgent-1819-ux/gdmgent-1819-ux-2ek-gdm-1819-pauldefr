@@ -3,7 +3,9 @@
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
+  --c-primary: hsla(16, 88%, 54%, 1);
+  --c-secondary: hsla(233, 90%, 88%, 1);
+  --c-tertiary: hsla(332, 66%, 42%, 1);
 
   /**
    * Layout
